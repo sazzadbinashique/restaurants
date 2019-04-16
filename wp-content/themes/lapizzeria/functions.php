@@ -3,6 +3,7 @@
  * Link or import the database.php file
  */
 require get_template_directory(). '/inc/database.php';
+require get_template_directory(). '/inc/reservation.php';
 
 function lapizzeria_setup(){
     add_theme_support('post-thumbnails');
