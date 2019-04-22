@@ -3,7 +3,14 @@
  * Link or import the database.php file
  */
 require get_template_directory(). '/inc/database.php';
+/**
+ * This is for insert for reservation using sql struture . 
+ */
 require get_template_directory(). '/inc/reservation.php';
+/**
+ * This for create a option on the theme 
+ */
+require get_template_directory(). '/inc/options.php';
 
 function lapizzeria_setup(){
     add_theme_support('post-thumbnails');

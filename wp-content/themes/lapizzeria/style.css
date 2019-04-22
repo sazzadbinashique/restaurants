@@ -77,7 +77,14 @@ h4{
 .primary:hover{
     background-color: #5c150e;
 }
+.secondary {
+    background-color: #f19f30;
+    transition: background-color .5s ease;
+}
 
+.secondary:hover {
+    background-color: #5c150e;
+}
 
 /** Header **/ 
 
@@ -752,4 +759,30 @@ form.reservation-form ::-ms-input-placeholder{
 
 form.reservation-form input[type="submit"]{
     border:none;
+}
+
+/** front page **/ 
+
+.home div.hero{
+ height: 750px;
+}
+
+@media only screen and (min-width: 768px){
+    .home .main-content{
+    margin-top: 0px;
+    }
+    .home .hero-text{
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .home .hero-text{
+        width: 40%;
+    }
+}
+
+.home .hero-text p{
+    line-height: 40px;
+    font-size: 18px;
 }
