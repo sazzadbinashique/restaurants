@@ -9,7 +9,7 @@
         ?>
 
         <div class="location">
-            <p>2323 Bay Avenue Mountain view, CA 132134234</p>
+            <p>D Block, Road - 2, Home - 7 , Mirpur-2, Dhaka-1216, CA 132134234</p>
             <p>Phone Numebr: +8801744938010</p>
         </div>
 
