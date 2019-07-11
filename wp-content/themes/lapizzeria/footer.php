@@ -13,7 +13,7 @@
             <p>Phone Numebr: +8801744938010</p>
         </div>
 
-        <p class="copyright">All rights reserved <?php echo date('Y'); ?></p>
+        <p class="copyright">All rights reserved by Sazzad Bin Ashique <?php echo date('Y'); ?></p>
     </footer>
     
     <?php wp_footer(); ?>
